@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Nunito+Sans:ital,wght@0,300;0,400;1,200&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #7dd56f;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}

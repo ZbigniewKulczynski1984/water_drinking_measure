@@ -9,6 +9,10 @@ smallCups.forEach((cup, idx) => {
 })
 
 function highlightCups(idx) {
+    if(smallCups[idx].classList.contains('full') && !smallCups[idx].nextElementSibling.classList.contains('full')) {
+        idx--
+    }
+
     console.log(idx)
     smallCups.forEach((cup, idx2) => {
         if(idx2 <= idx) {
